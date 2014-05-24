@@ -1,0 +1,54 @@
+#block-system-main-menu {
+  margin: 0;
+}
+
+
+#block-system-main-menu h2 {
+  display: none;
+}
+
+
+#block-system-main-menu ul.menu {
+  font-family: "Myriad Pro","Myriad Web Pro Regular","Lucida Grande",Geneva,Trebuchet MS,sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+#block-system-main-menu ul.menu li {
+  background: url("../images/tab-left.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  float: left;
+  margin: 0 4px 0 0;
+  padding: 0 0 0 10px;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+
+#block-system-main-menu ul.menu li a {
+  background: url("../images/tab-right.png") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);
+  color: #154B70;
+  display: block;
+/*  padding: 5px 10px 1px 0; */
+  padding: 5px 10px 0 0;
+  text-decoration: none;
+}
+
+#block-system-main-menu ul.menu li.is-active-trail, #block-system-main-menu ul.menu li:hover {
+  background-position: 0 -29px;
+}
+#block-system-main-menu ul.menu li a.is-active-trail, #block-system-main-menu ul.menu li:hover a {
+  background-position: 100% -29px;
+  color: #FFFFFF;
+}
+
+/*
+#block-system-main-menu ul.menu li.menu__item.is-leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+*/
