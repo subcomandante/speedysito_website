@@ -1,1 +1,46 @@
 /* Global styles */
+/* Basic Typography & Colors
+-------------------------------------------------------------- */
+/* Add general site styling here for typography and background */
+body {
+  font-size: 100%;   /* also set in fusion_starter.info: settings[base-font-size] = font-size-12 */
+  font-family: Arial,Helvetica,Verdana,"Bitstream Vera Sans",sans-serif
+}
+
+/* Default link styles - separate a:visited for a different visited link style */
+a,
+a:link,
+a:visited
+a:hover
+a:focus
+a:active {
+  color: #FF7F00;
+/*#27638C*/
+}
+
+/* Hover/active link styles. Don't forget :focus for accessibility */
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+ 
+}
+
+#content {
+  color: #666666;
+}
+
+.node h2 {
+  border-bottom: 1px solid #D6DDB9;
+  font-size: 180%;
+  line-height: 120%;
+}
+
+h1.title {
+  clear: left;
+  font-family: "Myriad Pro","Myriad Web Pro Regular","Lucida Grande",Geneva,Trebuchet MS,sans-serif;
+  font-size: 183.3%;
+  font-weight: bold;
+  line-height: 120%;
+  margin-bottom: 5px;
+}

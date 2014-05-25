@@ -2,3 +2,7 @@
 #preface {
   background: url("../images/preface-wrapper-bg.png") repeat-x scroll 0 0 #144A6E;
 }
+
+#main {
+  background: url("../images/content-gradient.png") repeat-x scroll 0 1px #F5F7E7; 
+}
