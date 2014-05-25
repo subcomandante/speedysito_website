@@ -52,6 +52,7 @@ base theme  = speedysito
 ; Then we add our own stylesheet.
 ;stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/speedysito.css
+stylesheets[all][] = css/regions.css
 stylesheets[all][] = css/menus.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
@@ -90,6 +91,7 @@ stylesheets[all][] = css/menus.css
 regions[header_top]     = Header top
 regions[header]         = Header
 regions[navigation]     = Navigation bar
+regions[preface]        = Preface
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
