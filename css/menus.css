@@ -54,3 +54,11 @@
   list-style-type: none;
 }
 */
+
+#block-system-main-menu ul.menu li.menu__item ul.menu {
+  display: none;
+}
+
+#block-system-main-menu ul.menu li.menu__item ul.menu li {
+
+}
