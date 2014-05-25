@@ -37,6 +37,7 @@
 /*  padding: 5px 10px 1px 0; */
   padding: 5px 10px 0 0;
   text-decoration: none;
+  font-size: 90%;
 }
 
 #block-system-main-menu ul.menu li.is-active-trail, #block-system-main-menu ul.menu li:hover {

@@ -7,6 +7,11 @@ body {
   font-family: Arial,Helvetica,Verdana,"Bitstream Vera Sans",sans-serif
 }
 
+p, pre {
+    margin: 1em 0;
+}
+
+
 /* Default link styles - separate a:visited for a different visited link style */
 a,
 a:link,
@@ -30,11 +35,27 @@ a:active {
   color: #666666;
 }
 
+.node {
+  background-color: #ffffff;
+}
+
 .node h2 {
   border-bottom: 1px solid #D6DDB9;
   font-size: 180%;
   line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+.node h3 {
+  border-bottom: 1px solid #D6DDB9;
+  color: #666666;
+  font-size: 150%;
+  line-height: 130%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 
 h1.title {
   clear: left;
@@ -44,3 +65,15 @@ h1.title {
   line-height: 120%;
   margin-bottom: 5px;
 }
+
+
+#block-blockify-blockify-page-title {
+  margin: 0;
+}
+
+#block-blockify-blockify-page-title #page-title {
+  margin: 15px 0;
+  color: #f5f5f5;
+}
+
+
