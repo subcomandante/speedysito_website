@@ -10,3 +10,10 @@
 #main_wrapper {
   background: url("../images/content-gradient.png") repeat-x scroll 0 1px #F5F7E7; 
 }
+
+
+#footer_top {
+  background: url("../images/pattern3.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #D6DDB9;
+  border-top: 1px solid #D6DDB9;
+}
