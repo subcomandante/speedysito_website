@@ -11,13 +11,13 @@
 <div id="page">
 
   <div id="header_top">
-  <div class="ss_row_wrapper clearfix">
+  <div class="region_header_top_inner ss_row_wrapper clearfix">
     <?php print render($page['header_top']); ?>
   </div>
   </div>
 
   <header class="header" id="header" role="banner">
-  <div class="ss_row_wrapper clearfix">
+  <div class="region_header_inner ss_row_wrapper clearfix">
     <?php if ($logo || $site_name): ?>
       <div class="header__logo-and-name" id="logo-and-name">
         <?php if ($logo): ?>
@@ -56,14 +56,14 @@
   </header>
 
   <div id="preface">
-  <div class="ss_row_wrapper clearfix">
+  <div class="region_preface_inner ss_row_wrapper clearfix">
     <?php print render($page['preface']); ?>
   </div>
   </div>
 
 
   <div id="main">
-  <div class="ss_row_wrapper clearfix">
+  <div class="region_main_inner ss_row_wrapper clearfix">
 
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
@@ -120,6 +120,14 @@
 
   </div>
   </div>
+
+  <div id="region_services">
+  <div class="region_services_inner ss_row_wrapper clearfix">
+    <?php print render($page['region_services']); ?>
+  </div>
+  </div>
+
+
 
   <?php print render($page['footer']); ?>
 
