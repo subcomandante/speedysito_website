@@ -137,7 +137,7 @@
 
 
 
-  <div id="footer">
+  <div id="footer-wrapper">
   <div class="ss_row_wrapper clearfix">
   <?php print render($page['footer']); ?>
   </div>
