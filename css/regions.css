@@ -25,3 +25,8 @@
   border-top: 1px solid #D6DDB9;
   padding: 10px 0;
 }
+
+#footer-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
