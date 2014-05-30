@@ -62,3 +62,32 @@
 #block-system-main-menu ul.menu li.menu__item ul.menu li {
 
 }
+
+/* SECONDARY MENU */
+#block-menu-menu-secondary-menu {
+
+}
+
+#block-menu-menu-secondary-menu h2 {
+  display: inline;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+#block-menu-menu-secondary-menu ul.menu {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#block-menu-menu-secondary-menu ul.menu li {
+  margin: 0 0 0 110px;
+  padding: 0;
+  display: inline;
+  list-style: none;
+}
+
+#block-menu-menu-secondary-menu ul.menu li a {
+  text-decoration: none;
+  font-size: 130%;
+}
