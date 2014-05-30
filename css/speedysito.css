@@ -95,5 +95,8 @@ h1.title {
 
 .speedysito-block-border-papersheet p {
   color: #444444;
+}
 
+.speedysito-services-content {
+  min-height: 110px;
 }

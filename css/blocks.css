@@ -7,3 +7,55 @@
   margin-right: 0;
 
 }
+
+
+
+
+
+
+/* SERVICES */
+.speedysito-services-content p {
+  line-height: 100%;
+}
+
+.testround {
+  border-radius: 15px;
+}
+
+.speedysito-services-moreinfo a {
+  background-color: #FFF;
+  padding: 4px 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.speedysito-basic-moreinfo {
+  color: #94CE18;
+}
+
+a.speedysito-professional-moreinfo {
+  color: #62ABDE;
+}
+
+a.speedysito-enterprise-moreinfo {
+  color: #FF7F00;
+}
+
+
+
+a:hover.speedysito-basic-moreinfo {
+  color: #FFF;
+  background-color: #BFEC40;
+}
+
+a:hover.speedysito-professional-moreinfo {
+  color: #FFF;
+  background-color: #3D9CDE;
+}
+
+a:hover.speedysito-enterprise-moreinfo {
+  color: #FFF;
+  background-color: #FFB265;
+  
+}
+
