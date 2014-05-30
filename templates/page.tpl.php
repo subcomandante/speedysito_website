@@ -61,7 +61,7 @@
   </div>
   </div>
 
-  <div id="main_wrapper">
+  <div id="main-wrapper">
   <div id="main">
   <div class="region_main_inner ss_row_wrapper clearfix">
 
@@ -141,7 +141,7 @@
   <div class="ss_row_wrapper clearfix">
   <?php print render($page['footer']); ?>
   </div>
-  <div>
+  </div>
 
 </div>
 
