@@ -98,9 +98,10 @@ h1.title {
 }
 
 .node {
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 0 5px #999999;
   padding: 15px 20px;
+  /*border: 1px solid #D2D2D2;*/
 }
 
 .node .field-name-field-content-banner {

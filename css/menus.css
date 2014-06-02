@@ -157,3 +157,96 @@
 #block-menu-menu-footer-menu ul.menu li ul.menu li a:hover {
   text-decoration: underline;
 }
+
+
+
+
+/* Websites menu */
+
+ul.speedysito-menu-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.speedysito-menu-icons li {
+  float: left;
+  width: 22.25em;
+  background-color: #F5F7E7;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+ul.speedysito-menu-icons li.last {
+  margin-right: 0;
+}
+
+ul.speedysito-menu-icons li a {
+  display: block;
+  padding-left: 190px;
+  height: 5em;
+  background-position: 0.5em center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  position: relative;
+}
+
+ul.speedysito-menu-icons li a span {
+  display: block;
+  height: 100%;
+  text-align: center;
+  /*background-color: #d2d2d2;*/
+}
+
+ul.speedysito-menu-icons a.architettura {
+  background-image: url("../images/categorie/1_Architettura.png");
+}
+
+ul.speedysito-menu-icons a.automoto {
+  background-image: url("../images/categorie/2_Moto.png");
+}
+
+ul.speedysito-menu-icons a.band {
+  background-image: url("../images/categorie/4_Band.png");
+}
+
+ul.speedysito-menu-icons a.bellezza {
+  background-image: url("../images/categorie/5_Bellezza.png");
+}
+
+ul.speedysito-menu-icons a.eventi {
+  background-image: url("../images/categorie/6_Eventi.png");
+}
+
+ul.speedysito-menu-icons a.folk {
+  background-image: url("../images/categorie/7_folk.png");
+}
+
+ul.speedysito-menu-icons a.medici {
+  background-image: url("../images/categorie/8_Medici.png");
+}
+
+ul.speedysito-menu-icons a.negozi {
+  background-image: url("../images/categorie/9_Negozi.png");
+}
+
+ul.speedysito-menu-icons a.pasticcerie {
+  background-image: url("../images/categorie/10_pasticcerie.png");
+}
+
+ul.speedysito-menu-icons a.ristoranti {
+  background-image: url("../images/categorie/11_Hotel.png");
+}
+
+ul.speedysito-menu-icons a.sitopersonale {
+  background-image: url("../images/categorie/12_CVmatrimonio.png");
+}
+
+ul.speedysito-menu-icons a.sport {
+  background-image: url("../images/categorie/13_sport.png");
+}
+
+
+
+
