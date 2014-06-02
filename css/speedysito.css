@@ -107,3 +107,14 @@ h1.title {
   text-align: center;
 }
 
+#content #page-title {
+  display: none;
+}
+
+
+#site-logo-name-slogan {
+  float: left;
+}
+.header__region {
+  clear:none;
+}

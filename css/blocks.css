@@ -59,3 +59,14 @@ a:hover.speedysito-enterprise-moreinfo {
   
 }
 
+
+#block-bean-speedysito-info {
+  margin-right: 15px;
+}
+
+#block-bean-speedysito-info p {
+  margin: 0;
+  padding: 0;
+  font-size: 90%;
+  line-height: 120%;
+}

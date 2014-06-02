@@ -92,6 +92,7 @@ stylesheets[all][] = css/blocks.css
 
 regions[header_top]     = Header top
 regions[header]         = Header
+regions[header_bottom]  = Header bottom
 regions[navigation]     = Navigation bar
 regions[preface]        = Preface
 regions[highlighted]    = Highlighted
