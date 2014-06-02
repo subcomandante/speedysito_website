@@ -96,3 +96,14 @@ h1.title {
 .speedysito-services-content {
   min-height: 110px;
 }
+
+.node {
+  border-radius: 5px;
+  box-shadow: 0 0 5px #999999;
+  padding: 15px 20px;
+}
+
+.node .field-name-field-content-banner {
+  text-align: center;
+}
+
