@@ -36,19 +36,37 @@ table.speedysito-table-comparativa td {
 
 
 table.speedysito-table-descrizioni {
-    border-collapse: separate;
-    border-spacing: 3px;
     border-style: none;
     width: 100%;
 }
+
 table.speedysito-table-descrizioni td {
-    background: url("../images/descrizioni_bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: medium none;
+}
+
+table.speedysito-table-descrizioni td p {
+    margin: 0 0 1em 0;
+}
+
+table.speedysito-table-descrizioni tbody td {
     font-size: 80%;
-    height: 300px;
-    min-height: 300px;
-    padding: 10px 10px 10px 20px;
+    padding: 0 10px 10px 20px;
     text-align: justify;
     vertical-align: top;
-    width: 33%;
+    width: 33.333333333%;
 }
+
+table.speedysito-table-descrizioni thead td {
+    background: url("../images/tables/description_thead.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 28px;
+}
+
+table.speedysito-table-descrizioni tbody td {
+    background: url("../images/tables/description_tbody.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+table.speedysito-table-descrizioni tfoot td {
+    background: url("../images/tables/description_tfoot.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    height: 28px;
+}
+
