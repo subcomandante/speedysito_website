@@ -183,19 +183,19 @@ ul.speedysito-menu-icons li.last {
 }
 
 ul.speedysito-menu-icons li a {
-  display: block;
+  display: table;
   padding-left: 190px;
   height: 5em;
   background-position: 0.5em center;
   background-repeat: no-repeat;
   text-decoration: none;
-  position: relative;
 }
 
 ul.speedysito-menu-icons li a span {
-  display: block;
-  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
+  width: 1%; /*hack*/
   /*background-color: #d2d2d2;*/
 }
 
