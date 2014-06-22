@@ -20,6 +20,11 @@
   padding: 2em 0 0 0;
 }
 
+#header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, #footer {
+  padding-left:0;
+  padding-right:0;
+}
+
 
 #main_bottom {
   padding-top: 35px;
